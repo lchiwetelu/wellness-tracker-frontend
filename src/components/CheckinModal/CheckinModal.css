@@ -1,0 +1,121 @@
+
+.checkin-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.checkin-modal {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  position: relative;
+}
+
+.checkin-modal-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+  margin: 0 0 28px 0;
+}
+
+.checkin-modal-close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 22px;
+  color: #999;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.checkin-modal-close:hover {
+  color: #333;
+}
+
+.checkin-modal-field {
+  margin-bottom: 24px;
+}
+
+.checkin-modal-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.checkin-modal-label-value {
+  font-weight: 600;
+  color: #f07070;
+}
+
+.checkin-modal-slider {
+  width: 100%;
+  accent-color: #f07070;
+  cursor: pointer;
+}
+
+.checkin-modal-medication-label {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.checkin-modal-medication-options {
+  display: flex;
+  gap: 12px;
+}
+
+.checkin-modal-medication-option {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.15s;
+  text-align: center;
+}
+
+.checkin-modal-medication-option:hover {
+  border-color: #f07070;
+  color: #f07070;
+}
+
+.checkin-modal-medication-option.selected {
+  border-color: #f07070;
+  background-color: #fff5f5;
+  color: #f07070;
+  font-weight: 600;
+}
+
+.checkin-modal-submit {
+  width: 100%;
+  margin-top: 8px;
+  padding: 16px;
+  background-color: #f07070;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.checkin-modal-submit:hover {
+  opacity: 0.9;
+}
