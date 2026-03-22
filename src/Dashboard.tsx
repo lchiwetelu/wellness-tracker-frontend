@@ -15,6 +15,7 @@ const Dashboard = () => {
                 <div className="dashboard-main">
                     <CheckinCard />
                     <StreakList />
+                    {/* <CheckinPrompt /> */}
                 </div>
             <OverviewSection />
         </div>

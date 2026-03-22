@@ -8,6 +8,7 @@ export default function OverviewSection() {
         <OverviewCard title="Sleep Patterns" />
         <OverviewCard title="Energy and Medication" />
       </div>
+      <span><a href="/">See Full Overview</a></span>
     </div>
   );
 }
